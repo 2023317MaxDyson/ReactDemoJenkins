@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-    <div> This is my Jenkins App</div>
+    <h1> This is my Jenkins App </h1>
     </div>
   );
 }
