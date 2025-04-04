@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             agent {
                 docker { 
-                    image 'node:22.11.0-bullseye' 
+                    image 'node:20.11.0-bullseye' 
                     reuseNode true
                 }
             }
@@ -23,7 +23,7 @@ pipeline {
         stage('Test'){
             agent{
                 docker{
-                    image 'node:22.11.0-bullseye' 
+                    image 'node:20.11.0-bullseye' 
                     reuseNode true
                 }
             }
